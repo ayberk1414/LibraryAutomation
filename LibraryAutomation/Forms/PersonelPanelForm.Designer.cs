@@ -67,7 +67,7 @@ namespace LibraryAutomation.Forms
             btnogrencilistesi = new Button();
             label8 = new Label();
             txtogrenciara = new TextBox();
-            ((System.ComponentModel.ISupportInitialize)dtper).BeginInit();
+          
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -81,13 +81,7 @@ namespace LibraryAutomation.Forms
             // 
             // dtper
             // 
-            dtper.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dtper.Location = new Point(12, 444);
-            dtper.Name = "dtper";
-            dtper.RowTemplate.Height = 25;
-            dtper.Size = new Size(1050, 437);
-            dtper.TabIndex = 1;
-            dtper.CellContentClick += dataGridView1_CellContentClick;
+            
             // 
             // txtper
             // 
